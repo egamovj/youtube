@@ -1,7 +1,7 @@
 export { default as Min } from './Min/Min';
 export { default as Channel } from './Channel/Channel';
 export { default as Search } from './Search/Search';
-export { default as Navbar } from './navbar/navbar';
+export { default as Navbar } from './Navbar/Navbar';
 export { default as SearchBar } from './SearchBar/SearchBar';
 export { default as Category } from './Category/Category';
 export { default as Videos } from './videos/videos';
