@@ -2,7 +2,8 @@ import { useContext, useEffect, useState } from "react";
 import { Stack } from "@mui/material";
 import { Category, Videos } from "../index";
 import { Apiservice } from "../../api/api";
-import "./Min.scss";
+
+import './MIn.scss'
 import { Modal } from "../ModalProvider/Modal";
 import { Menyu } from "../../constants/sidebarBtn";
 
