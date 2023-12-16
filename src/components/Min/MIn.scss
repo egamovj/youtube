@@ -1,0 +1,54 @@
+.wrapper-min {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .min-page {
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    overflow-x: hidden;
+  }
+  
+  .sigle-page-min {
+    height: 100vh;
+    margin: 0;
+    width: 250px;
+  }
+  .sigle-page-min.active {
+    width: 0px;
+  }
+  .sigle-page-min-item {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background-color: #0f0f0f;
+  }
+  .sigle-page-min-item.active {
+    width: 90px;
+  }
+  
+  .hom-min-page {
+    padding: 0;
+    width: 1300px;
+    overflow-x: hidden;
+    // background-color: aliceblue;
+  }
+  .hom-min-page.active {
+    width: 1450px;
+  }
+  .category {
+    padding-bottom: 20px;
+    margin: 0 auto;
+  
+    div {
+      display: flex;
+      button {
+        margin-left: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+  

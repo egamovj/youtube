@@ -1,0 +1,39 @@
+.search-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    div {
+      display: grid;
+      grid-template-columns: auto;
+  
+      .card-wrapper {
+        display: flex;
+        width: 100%;
+        margin-left: 30px;
+      }
+      .card-wrapper.active {
+        margin-left: 0px;
+      }
+      .card-medi {
+        width: 400px;
+        float: left;
+      }
+      .card-content {
+        height: 100%;
+        width: 600px;
+        .user {
+          display: flex;
+          padding-left: 18px;
+          padding-top: 120px;
+        }
+      }
+      .dis {
+        margin-top: -55px !important;
+      }
+    }
+    .video-wrapper.active {
+      grid-template-columns: auto;
+    }
+  }
+  

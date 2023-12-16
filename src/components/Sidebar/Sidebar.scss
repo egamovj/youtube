@@ -1,0 +1,104 @@
+.single-page-wrapper {
+    padding-top: 10px;
+    height: 100vh;
+    overflow: hidden;
+  
+    button {
+      display: flex;
+      align-items: center;
+      width: 85%;
+      margin: 0 auto;
+      margin-top: 5px;
+      padding-left: 15px;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: inherit;
+      color: white;
+      // transition: 0.3s;
+  
+      p {
+        padding-left: 10px;
+        color: white;
+        font-family: sans-serif;
+      }
+      svg {
+        fill: white;
+      }
+    }
+    button:hover {
+      background-color: #272727;
+    }
+    hr {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 5px;
+      opacity: 0.5;
+    }
+    p {
+      color: white;
+      padding: 10px;
+      padding-left: 35px;
+      font-family: sans-serif;
+    }
+  }
+  .sait-bar-p {
+    font-size: 13px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+    p {
+      text-align: left;
+      padding: 0;
+      padding-top: 10px;
+    }
+  }
+  
+  .menu {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+  }
+  .single-page-wrapper:hover {
+    overflow-y: scroll;
+  }
+  .single-page-wrapper.active:hover {
+    overflow-y: visible;
+  }
+  .button-menyu.active {
+    display: none;
+  }
+  .button-menyu1.active {
+    display: grid;
+    justify-content: center;
+    padding: 0;
+    p {
+      width: 0px;
+      margin: 10px 0 0 0;
+      padding: 0 0 0 0;
+      font-size: 10px;
+      text-align: center;
+      display: grid;
+      justify-content: center;
+    }
+    height: 60px;
+    span {
+      width: 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      svg {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        // margin-bottom: 20px;
+        text-align: center;
+        fill: white;
+      }
+    }
+  }
+  

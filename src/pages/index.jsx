@@ -1,0 +1,13 @@
+export { default as Shorts } from './Shorts';
+export { default as Education } from './Education';
+export { default as Games } from './Games';
+export { default as History } from './History';
+export { default as Library } from './Library';
+export { default as LikedVideos } from './LikedVideos';
+export { default as Music } from './Music';
+export { default as Live } from './Live';
+export { default as News } from './News';
+export { default as Sport } from './Sport';
+export { default as Subscriptions } from './Subscriptions';
+export { default as Trending } from './Trending';
+export { default as WatchLater } from './WatchLater';
